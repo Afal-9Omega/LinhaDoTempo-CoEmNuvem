@@ -1,3 +1,48 @@
+
+
+<h1 align="center"> ooo
+
+
+
+![Status](https://img.shields.io/badge/Status-Ativo-green)
+![Versão](https://img.shields.io/badge/Versão-1.0-blue)
+![Python](https://img.shields.io/badge/Python-3.10-yellow)
+[![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white)](#)
+
+---
+⚠️ **Atenção:** Esse projeto ainda está em desenvolvimento!
+---
+
+<h1 align="center">🚀 Meu Projeto Incrível</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Ativo-green">
+  <img src="https://img.shields.io/badge/Versão-1.0-blue">
+  <img src="https://img.shields.io/badge/Python-3.10-yellow">
+</p>
+
+---
+
+## ✨ Funcionalidades
+- ✅ <span style="color:green; font-weight:bold;">Login seguro</span>  
+- 📊 <span style="color:blue; text-decoration:underline;">Dashboard interativo</span>  
+- ⚡ <span style="color:red;">Performance otimizada</span>  
+
+---
+
+## 📦 Instalação
+```bash
+git clone https://github.com/usuario/repositorio.git
+cd repositorio
+pip install -r requirements.txt
+
+
+
+
+
+
+
+
 ' eee
 
 " eee
@@ -21,8 +66,6 @@
 
 
 ssh://[ <usuário>@ ] <host> [ :<porta> ] /<caminho-para-o-repositório-git>
-
-
 
 
 
