@@ -1,12 +1,60 @@
+' eee
+
+" eee
+
+{ iiii }
+
+: eee
+
+; eee
+
+* eee *
+  
+** eee **
+
+  **eee*
+
+**eee*
+
+  *eee**
+
+
+
+ssh://[ <usuário>@ ] <host> [ :<porta> ] /<caminho-para-o-repositório-git>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # LinhaDoTempo-CoEmNuvem
-
++ 
++ 
 # [Python 👨‍💻​](#-sobre-o-projeto)
+- iiii
++ iiii
 
 
-
+      # oiooiio
 
 [carro](#-sobre-o-projeto)
 [carro](#-carro)
+
+     # oiooiio
+     #carro
 
 - ![Nível 1: Fundamentos do Python - Aprenda Python em 10min](![Imagem do WhatsApp de 2025-09-16 à(s) 10 02 14_9eaa58a9](https://github.com/user-attachments/assets/8a6663a9-8f8a-4182-9dce-942d596936d7)
 )](https://youtu.be/4p7axLXXBGU?si=HIJw6AlfD_t3RMzp) 
@@ -22,6 +70,12 @@
 
 
 
+
+https://github.com/github/training-kit.git
+
+
+
+
 **x**
 **Y**
 
@@ -34,3 +88,15 @@
 - [📸 Demonstração](#-demonstração)
 - [🤝 Contribuição](#-contribuição)
 - [📄 Licença](#-licença)
+
+
+git clone[ <diretório-modelo > ]--template=
+	  [ -l] [ -s] [ --no-hardlinks] [ -q] [ ] -n[ --bare] [ --mirror]
+	  [ <nome> ] [ <nome> ] [ <pacote de upload> ] [ <repositório> ]-o -b -u --reference 
+	  [ --dissociate] [ <git-dir> ]--separate-git-dir 
+	  [ <profundidade> ] [ [ ] ] [ [ ] ]--depth --no-single-branch--no-tags
+	  [ --recurse-submodules[ <pathspec> ]] [ [ ] ]=--no-shallow-submodules
+	  [ --[ no-] remote-submodules] [ <n> ] [ ] [ [ ] ]--jobs --sparse--no-reject-shallow
+	  [ <especificação-do-filtro > ] [ ]] [ ] <repositório> 
+	  [ <diretório> ]--filter=--also-filter-submodules--
+   
