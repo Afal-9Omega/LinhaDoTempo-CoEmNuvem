@@ -1,3 +1,56 @@
+-- Modelo lógico no padrão brModelo
+
+-- Tabela REINO
+CREATE TABLE REINO (
+    id_reino INT PRIMARY KEY,
+    nome VARCHAR(100),
+    regente VARCHAR(100)
+);
+
+-- Tabela CASTELO
+CREATE TABLE CASTELO (
+    id_castelo INT PRIMARY KEY,
+    nome VARCHAR(100),
+    localizacao VARCHAR(100),
+    id_reino INT,
+    FOREIGN KEY (id_reino) REFERENCES REINO(id_reino)
+);
+
+-- Tabela GUERREIRO
+CREATE TABLE GUERREIRO (
+    id_guerreiro INT PRIMARY KEY,
+    nome VARCHAR(100),
+    classe VARCHAR(50),
+    nivel INT,
+    id_reino INT,
+    FOREIGN KEY (id_reino) REFERENCES REINO(id_reino)
+);
+
+-- Tabela MISSAO
+CREATE TABLE MISSAO (
+    num_missao INT PRIMARY KEY,
+    descricao VARCHAR(255),
+    data DATE,
+    id_guerreiro INT,
+    FOREIGN KEY (id_guerreiro) REFERENCES GUERREIRO(id_guerreiro)
+);
+
+-- Tabela ARTEFATO_MAGICO
+CREATE TABLE ARTEFATO_MAGICO (
+    id_artefato INT PRIMARY KEY,
+    nome VARCHAR(100),
+    poder VARCHAR(100)
+);
+
+-- Tabela PORTA (associativa entre GUERREIRO e ARTEFATO_MAGICO)
+CREATE TABLE PORTA (
+    id_guerreiro INT,
+    id_artefato INT,
+    num_seq INT,
+    PRIMARY KEY (id_guerreiro, id_artefato, num_seq),
+    FOREIGN KEY (id_guerreiro) REFERENCES GUERREIRO(id_guerreiro),
+    FOREIGN KEY (id_artefato) REFERENCES ARTEFATO_MAGICO(id_artefato)
+);
 
 
 <h1 align="center"> ooo
